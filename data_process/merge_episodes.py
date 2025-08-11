@@ -1,13 +1,10 @@
 import os
 import shutil
 import re
-
-# BASE_DIR = './'
-# TASK_PREFIXES = ['pick_bread', 'pick_cup', 'pick_lid', 'pour_coke', 'sweep_trash']
-
-# BASE_DIR = './pick_pen'
-# TASK_PREFIXES = ['pick_pen']
-# TARGET_DIR = './'
+'''
+step1
+Integrate all the downloaded data.
+'''
 
 BASE_DIR = '/home/onestar/FastUMI_data' # Dir of your data
 TASK_PREFIXES = ['unplug_charger'] # this is the task description of you data
