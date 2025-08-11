@@ -1,0 +1,14 @@
+name: FastUMI
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - h5py
+  - numpy
+  - scipy
+  - pip
+
+  - pip:
+    - pyrealsense2
+    - opencv-contrib-python
+    - tqdm
