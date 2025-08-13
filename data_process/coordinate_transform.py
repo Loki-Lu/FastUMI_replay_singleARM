@@ -115,7 +115,7 @@ def transform_to_base_quat(x, y, z, qx, qy, qz, qw, T_base_to_local):
 def normalize_and_save_hdf5(args):
     input_file, output_file = args
     # 基座坐标系下局部坐标系的原点位姿
-    base_x, base_y, base_z = 0.51043, -0.00588, 0.35984
+    base_x, base_y, base_z = 0.2, 0.0, 0.480
     base_roll, base_pitch, base_yaw = np.deg2rad([179.94725, -89.999981, 0.0])
     
     # 创建基座坐标系到局部坐标系的旋转矩阵
